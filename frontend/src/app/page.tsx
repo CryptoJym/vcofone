@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+import { redirect } from 'next/navigation'
+
+export default function Home() {
+  redirect('/dashboard')
+=======
 'use client';
 
 import React from 'react';
@@ -29,4 +35,5 @@ export default function Home() {
       </section>
     </main>
   );
+>>>>>>> origin/main
 }
